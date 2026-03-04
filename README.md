@@ -1,4 +1,4 @@
-# Form Mock with `useState`
+# React Form State Manager with `useState`
 
 A small React + Vite project that demonstrates how to handle multiple form inputs using a **single object state** and dynamically update fields via a generic `handleChange`. It also logs all collected data when the user clicks **Enviar**. (Project interface in Portuguese)
 
