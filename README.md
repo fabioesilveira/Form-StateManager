@@ -1,6 +1,6 @@
 # Form Mock with `useState`
 
-A small React + Vite project that demonstrates how to handle multiple form inputs using a **single object state** and dynamically update fields via a generic `handleChange`. It also logs all collected data when the user clicks **Enviar**.
+A small React + Vite project that demonstrates how to handle multiple form inputs using a **single object state** and dynamically update fields via a generic `handleChange`. It also logs all collected data when the user clicks **Enviar**. (Project interface in Portuguese)
 
 ---
 
@@ -31,10 +31,10 @@ Clone the repository and run locally:
 
 ```bash
 # 1) Clone the repo
-git clone https://github.com/fabioesilveira/Form-Mock-UseState.git
+git clone https://github.com/fabioesilveira/Form-StateManager.git
 
 # 2) Navigate to project folder
-cd Form-Mock-UseState
+cd Form-StateManager
 
 # 3) Install dependencies
 npm install
