@@ -20,12 +20,12 @@ A small React + Vite project that demonstrates how to handle multiple form input
 
 ---
 
-## Screenshot
+## Screenshots
 
 ![Screenshot](src/assets/Screenshot-1.png)
 ![Screenshot](src/assets/Screenshot-2.png)
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository and run locally:
 
