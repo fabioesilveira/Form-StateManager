@@ -88,17 +88,17 @@ export default function App() {
         />
         <input
           onChange={handleChange}
-          name="bairro"
-          type="text"
-          placeholder="Bairro"
-          value={formData.bairro}
-        />
-        <input
-          onChange={handleChange}
           name="numero"
           type="text"
           placeholder="Número"
           value={formData.numero}
+        />
+        <input
+          onChange={handleChange}
+          name="bairro"
+          type="text"
+          placeholder="Bairro"
+          value={formData.bairro}
         />
 
 
