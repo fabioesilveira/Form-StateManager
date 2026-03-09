@@ -21,6 +21,11 @@ export default function App() {
   }
 
   function handleClick() {
+    if (!allFilled) {
+      alert("Por favor, preencha todos os campos antes de enviar.");
+      return;
+    }
+
     setSubmitted(true);
     console.log("Dados enviados:", formData);
   }
@@ -39,16 +44,16 @@ export default function App() {
 
       <div className="paragraph-confirmation">
 
-      {/* ✅ Show the message only if all fields are filled */}
-      {allFilled ? (
-        <p className="confirm-text">
-          A informação está correta? Se sim, clique em <strong>Enviar</strong>.
-        </p>
-      ) : (
-        <p className="fill-text">
-          Preencha todos os campos para revisar suas informações.
-        </p>
-      )}
+
+        {allFilled ? (
+          <p className="confirm-text">
+            A informação está correta? Se sim, clique em <strong>Enviar</strong>.
+          </p>
+        ) : (
+          <p className="fill-text">
+            Preencha todos os campos para revisar suas informações.
+          </p>
+        )}
 
       </div>
 

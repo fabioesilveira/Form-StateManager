@@ -25,16 +25,20 @@ A small React + Vite project that demonstrates how to handle multiple form input
 ![Screenshot](src/assets/Screenshot-1.png)
 ![Screenshot](src/assets/Screenshot-2.png)
 
-## 🚀 Getting Started
+## Live Demo
+
+[Live Demo Link](https://form-state-manager.vercel.app/)
+
+## How to Run This Project
 
 Clone the repository and run locally:
 
 ```bash
 # 1) Clone the repo
-git clone https://github.com/fabioesilveira/Form-Mock-UseState.git
+git clone https://github.com/fabioesilveira/Form-StateManager.git
 
 # 2) Navigate to project folder
-cd Form-Mock-UseState
+cd Form-StateManager
 
 # 3) Install dependencies
 npm install
