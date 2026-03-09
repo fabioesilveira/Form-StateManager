@@ -29,6 +29,8 @@ A small React + Vite project that demonstrates how to handle multiple form input
 
 [Live Demo Link](https://form-state-manager.vercel.app/)
 
+---
+
 ## How to Run This Project
 
 Clone the repository and run locally:
